@@ -1,0 +1,22 @@
+{
+	"name": "mhwi-common",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"keywords": [
+		"mhwi-common"
+	],
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": ""
+	},
+	"devDependencies": {
+		"node-sass": "^4.14.0",
+		"sass-loader": "^8.0.2"
+	},
+	"author": "lit",
+	"license": "MIT"
+}
