@@ -1,10 +1,14 @@
 // 全局方法混入
 import mixin from './mixin/mixin.js';
 // 格式化时间
-import timeFormat from './utils/timeFormat.js'
+import timeFormat from './utils/timeFormat.js';
+// px转vh、vw
+import pxTransform from './utils/pxTransform.js';
 
 const $mhwi = {
-	timeFormat: timeFormat
+	timeFormat: timeFormat,
+	pxToVh: pxTransform.pxToVh,
+	pxToVw: pxTransform.pxToVw
 }
 
 const install = Vue => {
